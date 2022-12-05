@@ -58,6 +58,6 @@ In order to improve efficiency, multiple model attempts were performed.  The res
 
 ## Summary:
 
-As shown above, the initial setup for the model did not perform at the required level, coming in at 72.98%.  Through iterative design, the model was adjusted and obtained an increased rating of 73.04% on the second optimization attempt.  All other models had lower final accuracies than the initial model.  For this, it can be seen that changing the number of hidden layers and neurons had a negligible effect on increasing model accuracy.  Further adjustment may lead to an invalid model or one that overfits the dataset.
+- As shown above, the initial setup for the model did not perform at the accurate level, ending at 72.98%.  Through iterative design, the model was adjusted and obtained an increased rating of 73.04% on the second optimization attempt.  All other models had lower final accuracies than the initial model. 
 
-I would recommend a Random Forest classifier for an alternate model design.  This is due to Random Forest ability of performing binary classification, the ability to handle large datasets, and the reduction in code which can achieve comparable accuracy predictions.
+- we could further also optimize our neural network by removing more features or simply adding more data to the dataset to increase accuracy. Since our accuracy score was not particularly up to the standard with neural networks, we could have used the Random Forest classifiers. This is because random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. Also the random forest models have a faster performance than neural networks and could have avoided the data from being overfitted.
